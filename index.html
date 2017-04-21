@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" src="//normalize-css.googlecode.com/svn/trunk/normalize.css">
+
+      <link rel="stylesheet" href="style.css">
+      <title>Simon Says</title>
+
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js">
+      </script>
+
+      <script type="text/javascript" src="game.js" async></script>
+  </head>
+<body>
+
+
+<div id="title">
+    <h1>Simon Says</h1>
+
+    <div>
+    <p1 class="UI" id="count"> Count: 0 </p1>
+    <p1 class="UI" id="startButton"> Start </p1>
+    <p1 class="UI strict"> Strict </p1>
+    <input class="strictSelect" type="checkbox" name="strict" id="strictBox"></input>
+    </div>
+
+</div>
+
+<div id="board">
+
+    <a id="blue" class="square"><audio src="https://s3.amazonaws.com/freecodecamp/simonSound1.mp3"></audio></a>
+
+    <a class="square" id="red"><audio src="https://s3.amazonaws.com/freecodecamp/simonSound2.mp3"></a>
+
+    <a class="square" id="green"><audio src="https://s3.amazonaws.com/freecodecamp/simonSound3.mp3"></a>
+
+    <a class="square" id="yellow"><audio src="https://s3.amazonaws.com/freecodecamp/simonSound4.mp3"></a>
+
+</div>
+
+
+
+</body>
+</html>
